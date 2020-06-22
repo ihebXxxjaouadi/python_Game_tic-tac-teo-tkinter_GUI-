@@ -28,7 +28,7 @@ def play_again(YESno):
          print('End Game')
     
 def reset_tic():
-    for i in range(1,9):
+    for i in range(1,10):
         t[i]=' '
         
     l1=[t[1],'|',t[2],'|',t[3]]
